@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "../globals.css"; // <-- CORRIGIDO
-import { Toaster } from "../components/ui/sonner";
+import "../globals.css";
+// CORREÇÃO: Usando o atalho "@/" para consistência
+import { Toaster } from "@/components/ui/sonner";
 
 export const metadata: Metadata = {
   title: "Sitara - Soluções de Análise de Sistemas",
