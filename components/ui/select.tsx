@@ -6,9 +6,11 @@ import {
   CheckIcon,
   ChevronDownIcon,
   ChevronUpIcon,
-} from "lucide-react@0.487.0";
+  // CORREÇÃO: Removida a versão "@0.487.0" da linha abaixo
+} from "lucide-react";
 
 import { cn } from "./utils";
+
 
 function Select({
   ...props
