@@ -1,7 +1,8 @@
 "use client";
 
 import * as React from "react";
-import * as SheetPrimitive from "@radix-ui/react-dialog@";
+// CORREÇÃO: Removido o "@" extra no final da linha abaixo
+import * as SheetPrimitive from "@radix-ui/react-dialog";
 import { XIcon } from "lucide-react";
 
 import { cn } from "./utils";
@@ -9,6 +10,9 @@ import { cn } from "./utils";
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
   return <SheetPrimitive.Root data-slot="sheet" {...props} />;
 }
+// ... (o resto do arquivo permanece igual) ...
+// (Cole o início corrigido e mantenha o resto do seu arquivo)
+
 
 function SheetTrigger({
   ...props
