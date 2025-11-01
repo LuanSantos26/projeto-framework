@@ -1,14 +1,18 @@
-import { Header } from "../components/Header";
-import { Hero } from "../components/Hero";
-import { Solutions } from "../components/Solutions";
-import { Services } from "../components/Services";
-import { About } from "../components/About";
-import { Features } from "../components/Features";
-import { Team } from "../components/Team";
-import { Testimonials } from "../components/Testimonials";
-import { CTA } from "../components/CTA";
-import { Contact } from "../components/Contact";
-import { Footer } from "../components/Footer";
+// CORREÇÃO: Removidas as chaves {} para usar a exportação padrão (default)
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
+
+// Os componentes abaixo foram comentados porque os arquivos não foram encontrados.
+// Se você os tiver, apenas descomente as linhas.
+// import { Solutions } from "../components/Solutions";
+// import { Features } from "../components/Features";
+// import { Team } from "../components/Team";
+// import { Testimonials } from "../components/Testimonials";
+// import { CTA } from "../components/CTA";
 
 export default function HomePage() {
   return (
@@ -16,13 +20,13 @@ export default function HomePage() {
       <Header />
       <main>
         <Hero />
-        <Solutions />
+        {/* <Solutions /> */}
         <Services />
         <About />
-        <Features />
-        <Team />
-        <Testimonials />
-        <CTA />
+        {/* <Features /> */}
+        {/* <Team /> */}
+        {/* <Testimonials /> */}
+        {/* <CTA /> */}
         <Contact />
       </main>
       <Footer />

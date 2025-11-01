@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
+import "../globals.css"; // <-- CORRIGIDO
 import { Toaster } from "../components/ui/sonner";
 
 export const metadata: Metadata = {
