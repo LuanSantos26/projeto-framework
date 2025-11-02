@@ -4,7 +4,7 @@ import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import "./globals.css";
+
 
 export default function Home() {
   return (
