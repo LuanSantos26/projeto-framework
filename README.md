@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Sitara - Website
 
-## Getting Started
+Site moderno e interativo para a empresa Sitara, especializada em soluções de análise de sistemas de software para empresas.
 
-First, run the development server:
+## 📋 Funcionalidades
 
-```bash
+- ✨ Design moderno com animações fluidas (Motion/Framer Motion)
+- 🎨 Interface responsiva e atrativa
+- 💬 Chatbot integrado para comunicação com visitantes
+- 🔧 Seções especializadas em:
+  - Performance
+  - Segurança
+  - Otimização
+  - Revisão de Código
+  - Arquitetura de Dados
+  - Consultoria
+- 📱 Totalmente responsivo
+- 🎭 Efeitos visuais modernos
+
+## 🚀 Como Rodar o Projeto
+
+### Pré-requisitos
+
+- Node.js (versão 18 ou superior) - [Download aqui](https://nodejs.org/)
+- npm (vem com Node.js) ou yarn
+
+### Passo a Passo
+
+#### 1. Organize os Arquivos
+
+Reorganize sua estrutura de arquivos da seguinte forma:
+
+\`\`\`
+sitara-website/
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tsconfig.node.json
+├── .gitignore
+├── README.md
+└── src/
+    ├── main.tsx
+    ├── App.tsx
+    ├── components/
+    │   ├── Header.tsx
+    │   ├── Hero.tsx
+    │   ├── Logo.tsx
+    │   ├── Services.tsx
+    │   ├── About.tsx
+    │   ├── Contact.tsx
+    │   ├── Footer.tsx
+    │   ├── Chatbot.tsx
+    │   ├── figma/
+    │   │   └── ImageWithFallback.tsx
+    │   └── ui/
+    │       ├── (todos os componentes shadcn)
+    │       └── ...
+    └── styles/
+        └── globals.css
+\`\`\`
+
+#### 2. Instale as Dependências
+
+Abra o terminal na pasta raiz do projeto e execute:
+
+\`\`\`bash
+npm install
+\`\`\`
+
+Ou se preferir usar yarn:
+
+\`\`\`bash
+yarn install
+\`\`\`
+
+#### 3. Execute o Projeto
+
+Para rodar em modo de desenvolvimento:
+
+\`\`\`bash
 npm run dev
-# or
+\`\`\`
+
+Ou com yarn:
+
+\`\`\`bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\`\`\`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site será aberto automaticamente no navegador em `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### 4. Build para Produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Para criar uma versão otimizada para produção:
 
-## Learn More
+\`\`\`bash
+npm run build
+\`\`\`
 
-To learn more about Next.js, take a look at the following resources:
+Os arquivos de produção serão gerados na pasta `dist/`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para visualizar a versão de produção localmente:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+\`\`\`bash
+npm run preview
+\`\`\`
 
-## Deploy on Vercel
+## 🛠️ Tecnologias Utilizadas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **React 18** - Framework JavaScript
+- **TypeScript** - Tipagem estática
+- **Vite** - Build tool ultra-rápido
+- **Tailwind CSS v4** - Framework CSS
+- **Motion (Framer Motion)** - Animações fluidas
+- **Lucide React** - Ícones modernos
+- **Radix UI** - Componentes acessíveis
+- **Sonner** - Toast notifications
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📁 Estrutura do Projeto
+
+- **/src/components/** - Componentes React modulares
+  - **Header.tsx** - Cabeçalho com navegação
+  - **Hero.tsx** - Seção hero principal
+  - **Logo.tsx** - Logo da Sitara com efeitos interativos
+  - **Services.tsx** - Serviços oferecidos
+  - **About.tsx** - Sobre a empresa
+  - **Contact.tsx** - Formulário de contato
+  - **Footer.tsx** - Rodapé
+  - **Chatbot.tsx** - Widget de chat integrado
+  - **/ui/** - Componentes shadcn/ui reutilizáveis
+
+- **/src/styles/** - Estilos globais
+  - **globals.css** - Variáveis CSS e configurações Tailwind
+
+## 🎨 Personalização
+
+Para personalizar cores e estilos, edite o arquivo `/src/styles/globals.css` onde estão definidas as variáveis CSS personalizadas.
+
+## 📝 Scripts Disponíveis
+
+- `npm run dev` - Inicia servidor de desenvolvimento
+- `npm run build` - Gera build de produção
+- `npm run preview` - Visualiza build de produção localmente
+- `npm run lint` - Executa linter para verificar código
+
+## 🤝 Contribuindo
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto é proprietário da Sitara.
+
+## 📧 Contato
+
+Para mais informações, visite [www.sitara.com](https://www.sitara.com) ou entre em contato através do formulário no site.
+
+---
+
+Desenvolvido com ❤️ para Sitara
