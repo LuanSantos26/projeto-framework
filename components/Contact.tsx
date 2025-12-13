@@ -163,7 +163,7 @@ export function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  placeholder="seu@email.com"
+                  placeholder="Sitara@corp.com"
                 />
               </div>
 
@@ -178,7 +178,7 @@ export function Contact() {
                   value={formData.phone}
                   onChange={handleChange}
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600"
-                  placeholder="(11) 99999-9999"
+                  placeholder="(11) 4002-8922"
                 />
               </div>
 
